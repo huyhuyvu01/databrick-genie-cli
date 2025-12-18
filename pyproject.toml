@@ -5,9 +5,9 @@ description = "Databricks Genie CLI"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "databricks-sdk>=0.1.0",
-    "rich>=13.0.0",
-    "python-dotenv>=1.0.0",
+    "databricks-sdk==0.76.0",
+    "rich==14.2.0",
+    "python-dotenv==1.2.1",
 ]
 
 [tool.uv]
